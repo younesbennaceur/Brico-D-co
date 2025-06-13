@@ -35,7 +35,7 @@ export default function Home() {
           <div className='flex flex-col sm:flex-row gap-8  text-center sm:text-left'>
             <div>
                 <h1 className='text-3xl font-medium' >+4</h1>
-                <p>ans d'expérience</p>
+                <p>Ans d'expérience</p>
 
             </div>
              <div>
