@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.active hr {
+  @apply block
+}
+:root {
+  --primary-color: #D61619;
+  --hover-primary: #700002;
+}
+::-webkit-scrollbar {
+  @apply hidden
+}
