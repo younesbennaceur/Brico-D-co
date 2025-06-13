@@ -1,6 +1,6 @@
 import React from 'react'
-import Hero from '../assets/hero.svg';
-import BackgroundImage from '../assets/backgroundImage.svg'; // Ton image de fond
+import Hero from '../assets/hero.png';
+import BackgroundImage from '../assets/backgroundImage.png'; // Ton image de fond
 import note from '../assets/note.png';
 import { NavLink } from 'react-router-dom';
 
