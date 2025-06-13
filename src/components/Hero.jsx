@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../assets/Hero.png';
+import Hero from '../assets/hero.png';
 import BackgroundImage from '../assets/backgroundimage.png'; // Ton image de fond
 import note from '../assets/note.png';
 import { NavLink } from 'react-router-dom';
