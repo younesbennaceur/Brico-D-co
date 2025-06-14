@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 
 export default function Navbar() {
   return (
-    <nav className='flex justify-between text-sm  py-6 items-center border-b bg-white px-4 sm:px-[10%] opacity-85 border-gray-200'>
+    <nav className='flex justify-between text-sm  py-6 items-center border-b bg-white px-4 sm:px-[5%] opacity-85 border-gray-200'>
       <img src={logo} alt="Logo" className='w-40 cursor-pointer' />
       
       <ul className='hidden md:flex font-normal justify-between gap-8'>

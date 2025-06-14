@@ -9,3 +9,49 @@
 ::-webkit-scrollbar {
   @apply hidden
 }
+/* Container des bullets */
+.swiper-pagination {
+  margin-top: 20px;
+  text-align: center;
+  position: relative; /* important pour éviter qu'ils remontent */
+}
+
+/* Bullets normales */
+.swiper-pagination-bullet {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  margin: 0 5px;
+  border-radius: 9999px;
+  transition: background-color 0.3s ease;
+}
+
+/* Bullet active */
+.swiper-pagination-bullet-active {
+  background-color: #dc2626 !important; /* Tailwind red-600 */
+}
+
+/* Flèches navigation */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #dc2626; /* Tailwind red-600 */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #b91c1c; /* Tailwind red-700 on hover */
+}
+/* Couleur permanente pour les flèches Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #dc2626 !important; /* Rouge (red-600) en permanence */
+}
+
+/* Optionnel : couleur plus foncée au survol */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #b91c1c !important; /* Rouge plus foncé (red-700) */
+}

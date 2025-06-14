@@ -10,7 +10,7 @@ export default function Home() {
       className="bg-cover min-h-screen bg-center bg-no-repeat flex items-center"
       style={{ backgroundImage: `url(${BackgroundImage})` }}
     >
-      <div className='mx-4 sm:mx-[10%] flex flex-row gap-8  w-full'>
+      <div className='mx-4 sm:mx-[5%] flex flex-row gap-8  w-full'>
         <div className='w-1/2 flex flex-col gap-6 justify-center text-white'>
           <h1 className='text-6xl  font-bold'>
             Un intérieur à votre image, avec <span className='text-[var(--primary-color)]'>style</span> et <span className='text-[var(--primary-color)]'>savoir-faire</span>
