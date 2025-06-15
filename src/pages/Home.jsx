@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import Contact from '../components/Contact'
 import Projets from '../components/Projets'
 import Produits from '../components/Produits'
+import AboutUs from '../components/AboutUs'
+import FAQ from '../components/FAQ'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
         <Hero/>
         <Projets/>
         <Produits/>
+        <AboutUs/>
+        <FAQ/>
         
     </div>
     
