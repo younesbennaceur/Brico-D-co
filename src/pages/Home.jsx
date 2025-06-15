@@ -14,6 +14,7 @@ export default function Home() {
         <Produits/>
         <AboutUs/>
         <FAQ/>
+        <Contact/>
         
     </div>
     
